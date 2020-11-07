@@ -1,0 +1,21 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#signeelvira_001, #signes_steg_001 {
+    border-radius: 40%;
+  }
+
+.instagram_profile {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
