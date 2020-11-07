@@ -2,13 +2,33 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-#signeelvira_001, #signes_steg_001 {
-    border-radius: 40%;
+/* unvisited link */
+a:link {
+  color: rgb(183, 25, 223);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(233, 155, 39);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: rgb(183, 25, 223);
 }
 
 .instagram_profile {
   width: 300px;
   margin-bottom: 20px;
+}
+
+.instagram_logo{
+  margin-bottom: -5px;
 }
 
 .row {
@@ -28,3 +48,6 @@ footer {
   right: 0;
 }
 
+#signeelvira_001, #signes_steg_001 {
+  border-radius: 40%;
+}
