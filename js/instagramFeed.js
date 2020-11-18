@@ -136,7 +136,8 @@
                 var width = (100 - this.options.margin * 2 * this.options.items_per_row) / this.options.items_per_row;
                 styles = {
                     'profile_container': " style='text-align:center;'",
-                    'profile_image': " style='border-radius:10em;width:15%;max-width:125px;min-width:50px;'",
+                    'profile_image': " style='border-radius:10em;max-width:125px;min-width:50px;'",
+                    /*  'profile_image': " style='border-radius:10em;width:15%;max-width:125px;min-width:50px;'", */
                     'profile_name': " style='font-size:1.2em;'",
                     'profile_biography': " style='font-size:1em;'",
                     'gallery_image': " style='width:100%;'",
@@ -179,7 +180,9 @@
                 if (this.is_tag)
                     html += "<p class='instagram_tag'" + styles.profile_name + "><a href='https://www.instagram.com/explore/tags/" + this.options.tag + "' rel='noopener' target='_blank'>#" + this.options.tag + "</a></p>";
                 else
-                    html += "<p class='instagram_username'" + styles.profile_name + ">@" + data.full_name + " (<a href='https://www.instagram.com/" + this.options.username + "' rel='noopener' target='_blank'>@" + this.options.username + "</a>)</p>";
+                    html += "<p class='instagram_username'" + styles.profile_name + ">";
+                    html += "<img src='social/instagram.png' alt='instagram' width='24' height='24' class='instagram_logo'> ";
+                    html += "<a href='https://www.instagram.com/" + this.options.username + "' rel='noopener' target='_blank'>@" + this.options.username + "</a></p>";
 
                 if (!this.is_tag && this.options.display_biography)
                     html += "<p class='instagram_biography'" + styles.profile_biography + ">" + data.biography + "</p>";

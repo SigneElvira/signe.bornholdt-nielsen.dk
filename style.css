@@ -26,15 +26,6 @@ a:active {
   color: rgb(183, 25, 223);
 }
 
-.instagram_profile {
-  width: 300px;
-  margin-bottom: 20px;
-}
-
-.instagram_logo{
-  margin-bottom: -5px;
-}
-
 .row {
   display: flex;
 }
@@ -50,6 +41,20 @@ footer {
 
   left: 5px;
   right: 0;
+}
+
+.instagram-feed {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.instagram_profile {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.instagram_logo{
+  margin-bottom: -5px;
 }
 
 #signeelvira_001, #signes_steg_001 {
