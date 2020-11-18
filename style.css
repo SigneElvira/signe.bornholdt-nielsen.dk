@@ -44,10 +44,10 @@ a:active {
 }
 
 footer {
+  background-color: rgb(245, 241, 248);
   position: fixed;
   bottom: 5px;
 
-  /* And if you want the div to be full-width: */
   left: 5px;
   right: 0;
 }
