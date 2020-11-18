@@ -4,6 +4,7 @@
 <head>
     <title>Signe Elvira Bornholdt Nielsen</title>
     <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="js/instagramFeed.js"></script>
 </head>
@@ -13,39 +14,28 @@
     <div style="text-align: center;">
         <h1>Signe Elvira Bornholdt Nielsen</h1>
     </div>
-<!--
-    <div class="row instagram_profile">
-        <div class="column">
-            <img id="signeelvira_001" alt="Signe Elvira - Instagram" src="images/signeelvira_001.jpg">
-        </div>
-        <div class="column">
-            <img src="social/instagram.png" alt="instagram" width="24" height="24" class="instagram_logo"> <a
-                href="https://www.instagram.com/signeelvira/">Signe Elvira</a>
-        </div>
-    </div>
-
-    <div class="row instagram_profile">
-        <div class="column">
-            <img id="signes_steg_001" alt="Signes Streg - Instagram"src="images/signes_steg_001.jpg">
-        </div>
-        <div class="column">
-            <img src="social/instagram.png" alt="instagram" width="24" height="24" class="instagram_logo"> <a
-                href="https://www.instagram.com/signes_streg/">Signes streg</a>
-        </div>
-    </div>
-
--->    
 
     <div class="row">
         <div class="column instagram-feed">
-            <div id="instagram-feed-signeelvira"></div>
+            <div id="instagram-feed-signeelvira">
+                <div class="instagram_profile_start">
+                    <img id="signeelvira_001" alt="Signe Elvira - Instagram" src="images/signeelvira_001.jpg"><br>
+                    <img src="social/instagram.png" alt="instagram" width="24" height="24" class="instagram_logo"> <a
+                    href="https://www.instagram.com/signeelvira/">Signe Elvira</a>
+                </div>
+            </div>
         </div>
         <div class="column instagram-feed">
-            <div id="instagram-feed-signes-streg"></div>
+            <div id="instagram-feed-signes-streg">
+                <div class="instagram_profile_start">
+                    <img id="signes_steg_001" alt="Signes Streg - Instagram"src="images/signes_steg_001.jpg"><br>
+                    <img src="social/instagram.png" alt="instagram" width="24" height="24" class="instagram_logo"> <a
+                    href="https://www.instagram.com/signes_streg/">Signes streg</a>
+                </div>
+            </div>
         </div>
     </div>
-
-   
+    
     <script>
         (function(){
             new InstagramFeed({

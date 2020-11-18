@@ -6,5 +6,6 @@ https://www.favicon.cc/
 
 https://html5up.net/
 
-
 https://github.com/jsanahuja/InstagramFeed
+
+https://stackoverflow.com/questions/50265033/css-responsive-two-column-with-multi-rows-into-one-column
