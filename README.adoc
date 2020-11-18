@@ -1,5 +1,12 @@
 = Signe Elviras website
 
+Start development
+
+[source,bash]
+----
+browser-sync start -f . -s
+----
+
 Links
 
 https://www.favicon.cc/
