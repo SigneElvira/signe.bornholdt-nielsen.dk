@@ -6,6 +6,10 @@ body{
   background-color: rgb(245, 241, 248);
 }
 
+.pageHeader {
+  background-color: blueviolet;
+}
+
 /* unvisited link */
 a:link {
   color: rgb(183, 25, 223);
@@ -13,7 +17,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: rgb(233, 155, 39);
+  color: rgb(165, 152, 132);
 }
 
 /* mouse over link */

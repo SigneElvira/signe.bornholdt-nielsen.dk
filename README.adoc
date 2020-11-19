@@ -9,6 +9,8 @@ browser-sync start -f . -s
 
 Links
 
+https://www.w3schools.com/html/default.asp
+
 https://www.favicon.cc/
 
 https://html5up.net/
