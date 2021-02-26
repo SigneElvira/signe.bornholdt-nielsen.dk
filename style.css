@@ -78,3 +78,9 @@ footer {
 #signeelvira_001, #signes_steg_001 {
   border-radius: 40%;
 }
+
+.devMode{
+  padding-left: 15px;
+  color: brown;
+  font-weight: bold;
+}

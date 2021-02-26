@@ -37,41 +37,51 @@
     </div>
     
     <script>
-        (function(){
-            new InstagramFeed({
-                'username': 'signeelvira',
-                'container': document.getElementById("instagram-feed-signeelvira"),
-                'display_profile': true,
-                'display_biography': true,
-                'display_gallery': true,
-                'display_captions': true,
-                'callback': null,
-                'styling': true,
-                'items': 9,
-                'items_per_row': 3,
-                'margin': 1,
-                'lazy_load': true,
-                'on_error': console.error
-            });
-        })();
+        if(location.port != "3000"){
+            (function(){
+                new InstagramFeed({
+                    'username': 'signeelvira',
+                    'container': document.getElementById("instagram-feed-signeelvira"),
+                    'display_profile': true,
+                    'display_biography': true,
+                    'display_gallery': true,
+                    'display_captions': true,
+                    'callback': null,
+                    'styling': true,
+                    'items': 9,
+                    'items_per_row': 3,
+                    'margin': 1,
+                    'lazy_load': true,
+                    'on_error': console.error
+                });
+            })();
 
-        (function(){
-            new InstagramFeed({
-                'username': 'signes_streg',
-                'container': document.getElementById("instagram-feed-signes-streg"),
-                'display_profile': true,
-                'display_biography': true,
-                'display_gallery': true,
-                'display_captions': true,
-                'callback': null,
-                'styling': true,
-                'items': 9,
-                'items_per_row': 3,
-                'margin': 1,
-                'lazy_load': true,
-                'on_error': console.error
-            });
-        })();
+            (function(){
+                new InstagramFeed({
+                    'username': 'signes_streg',
+                    'container': document.getElementById("instagram-feed-signes-streg"),
+                    'display_profile': true,
+                    'display_biography': true,
+                    'display_gallery': true,
+                    'display_captions': true,
+                    'callback': null,
+                    'styling': true,
+                    'items': 9,
+                    'items_per_row': 3,
+                    'margin': 1,
+                    'lazy_load': true,
+                    'on_error': console.error
+                });
+            })();
+        }else{
+            var DEV_MODE = "<div class='devMode'>DEV MODE</div>";
+
+            var signeelvira = document.getElementById("instagram-feed-signeelvira").innerHTML;
+            document.getElementById("instagram-feed-signeelvira").innerHTML = DEV_MODE + signeelvira;
+            
+            var signesstreg = document.getElementById("instagram-feed-signes-streg").innerHTML;
+            document.getElementById("instagram-feed-signes-streg").innerHTML = DEV_MODE + signesstreg;
+        }
     </script>
 
     <footer>License : Apache License Version 2.0</footer>
