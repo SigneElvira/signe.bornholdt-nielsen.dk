@@ -6,11 +6,16 @@ p {
     border-radius: 15%;
 }
 
-footer {
-    padding: 30px;
-    margin-left: 80px;
+
+.info {
+  padding: 30px;
+  margin-left: 80px;
+  margin-right: 1300px;
 }
 
+.ka {
+  margin-left: 40px;
+}
 
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
@@ -80,5 +85,3 @@ body {font-family: Verdana, sans-serif;}
   color: white !important
 }
 
-Skal bruges senere
-<span class="active">10</span>
